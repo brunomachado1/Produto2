@@ -33,17 +33,28 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]--> 
-
-		<script type="text/javascript">
-			init();
-
-			$(document).ready(function () {
-			    randomPost();
-			});
-		</script>   
 	</head>
 
 	<body data-spy="scroll">
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '609292822600432',
+	      xfbml      : true,
+	      version    : 'v2.9'
+	    });
+	    FB.AppEvents.logPageView();
+	  };
+	</script>
+
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9&appId=609292822600432";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -83,44 +94,21 @@
 				    </div>
 			  	</div>
 		    </aside>
-		    <ul id="posts"  class="col-md-10">
+		    <ul id="forum"  class="col-md-10">
 		        <li>
 		            <article>                  
-		                <a href="forum.html"><h1>Mais de 70 casos de violência sexual infantil foram denunciados pelo Disque 100 em um ano no AC</h1></a>
-		                <p>Ouvidoria Nacional dos Direitos Humanos, por meio do Disque 100, recebeu 74 denúncias de violência sexual contra crianças e adolescentes entre 0 e 18 anos do Acre no último ano. A informação foi divulgada nesta quarta-feira (17), na véspera do Dia Nacional do Combate ao Abuso e à Exploração Sexual contra Crianças e Adolescentes, nesta quinta-feira (18).</p>
-
-		                <p>Os casos desse tipo de crime podem ser bem maiores, já que o levantamento considera apenas os crimes denunciados pelo número de emergência durante o ano de 2016.</p>
-
-		                <p>Do total dos casos no Acre, foram 61 de abuso sexual, 11 de exploração sexual e dois classificados como "outros", sem especificação.</p>
-
-		                <p>Os dados foram passados em uma ação realizada por cinco organizações sociais (Childhood Brasil, Fundação Abrinq, Liberta, Plan International Brasil e Secretaria Nacional dos Direitos da Criança e do Adolescente). Elas se uniram para conscientizar a população sobre o 18 de maio.</p>
-
-		                <p>O secretário de Justiça e Direitos Humanos do Acre (Sejudh), Nilson Mourão, informou que as denúncias encaminhadas ao Disque 100 são repassadas para os órgãos afins, como Conselhos Tutelares e a própria Sejudh.</p>
-
-		                <p>Mourão disse ainda que a secretaria atua, principalmente, através dos Conselhos Tutelares com ações contra o abuso e a exploração sexual infantil.</p>
-
-		                <p>A coordenadora do Comitê Estadual de Enfrentamento à Violência Sexual Contra Crianças e Adolescente no Acre, Dulce Silva, informou que os números de denúncias estão diretamente ligados às ações de sensibilização sobre o assunto.</p>
-
-		                <p>“Como nesta quinta-feira (18) é o Dia Nacional de Enfrentamento e vamos fazer uma ação de mobilização, acreditamos que os números de denúncias possam aumentar ainda mais. Isso porque quanto mais sensibilizar, maior o número de denúncias”, disse Dulce.</p>
-
-		                <p>O comitê está, segundo a coordenadora, vinculado diretamente ao Conselho Estadual dos Direitos da Criança e Adolescente e é composto por instituições afins.</p>
-
-		                <p>“São nesses levantamentos que nos pautamos. O papel do comitê é justamente buscar esses índices e fazer essa articulação de mobilização das redes de enfrentamento e de atendimento. As escolas, por exemplo, são a porta de entrada de diversas violações, então esse é um dos anseios do comitê, trabalhar junto às escolas por meio dos coordenadores pedagógicos”, disse ela.</p>
-		            </article>
-		        </li>
-
-		        <li>
-		            <article>                  
-		                <a href="forum2.html"><h1>Desenhos e brincadeiras ajudam a revelar vítimas de abuso sexual, diz especialista</h1></a>
+		                <h1>Desenhos e brincadeiras ajudam a revelar vítimas de abuso sexual, diz especialista</h1>
 		                <p>antasiar histórias, desenhar e criar brincadeiras são coisas naturais no universo infantil, e é justamente por esses meios lúdicos que muitas delas conseguem denunciar algo que não é comum, porém corriqueiro: abusos sexuais de crianças e adolescentes. Nesta quinta-feira (18), Dia Nacional do Combate ao Abuso Sexual de Crianças e Adolescentes, o G1 lista sinais que podem ajudar responsáveis a identificar se a criança é vítima de algum abuso.</p>
 
 		                <p>A psicóloga Antonieta Cavalcante atua na Delegacia Especializada em Proteção à Criança e Adolescente (Depca), em Manaus, há dois anos e lida diariamente com vítimas de abusos sexuais. Ela diz que na maior parte dos casos, os abusadores são membros da família ou próximos da vítima, tornando a denúncia mais difícil.</p>
 
 		                <p>"São pais, tios, avós, um amigo que frequenta muito a casa e tem a confiança da família. Eles dizem para a vítima não falar, muitas vezes ameaçam fazer algo contra alguém que a criança gosta ou dizem que não vão acreditar nela, que é normal. A criança acaba se sentido culpada, acha que o autor abusou dela por causa de algum comportamento que ela teve. Mas a criança tende a demonstrar o que passa, principalmente para um adulto de confiança", diz a psicóloga.</p>
 
-		                <p>Conforme os registros, a equipe de psicologia e asssistência social da Depca atende cerca de 80 pessoas mensalmente, incluindo vítima e responsável. O número costuma aumentar nos meses de maio, junho e julho, quando são intensificadas as campanhas de combate à exploração sexual. Em maio de 2016, por exemplo, a quantidade de pessoas atendidas chegou a quase 500.</p>		             
-		            </article>
+		                <p>Conforme os registros, a equipe de psicologia e asssistência social da Depca atende cerca de 80 pessoas mensalmente, incluindo vítima e responsável. O número costuma aumentar nos meses de maio, junho e julho, quando são intensificadas as campanhas de combate à exploração sexual. Em maio de 2016, por exemplo, a quantidade de pessoas atendidas chegou a quase 500.</p>		               
+		            </article>		            
 		        </li>
+		        <div id="fb-root"></div>
+		        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
 		    </ul>
 		</section>		
 	</body>
