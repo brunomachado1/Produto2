@@ -108,11 +108,32 @@ div.sobre .bkg-sobre {
 
 #posts {
     margin: 0 auto;
-    padding-right: 0;    
     list-style-type: none;
 }
 
+#posts a {
+	color: #000;
+	text-decoration: none;
+}
+
 #posts li {
+	margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 15px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+}
+
+#forum {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+#forum a {
+	color: #000;
+	text-decoration: none;
+}
+
+#forum li {
 	margin-bottom: 20px;
     padding: 40px;
     padding-top: 15px;
