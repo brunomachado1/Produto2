@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Içara</title>
+    <title>Seiva</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Içara</a>
+				<a class="navbar-brand" href="#">Seiva</a>
 			</div>
 			<div id="navbar" class="navbar-right collapse navbar-collapse">
 				<ul class="nav navbar-nav">
@@ -60,7 +60,8 @@
 	<!-- Header -->
     <header id="top" class="header">			
         <div class="text-center">		
-			<h1>Onde há trabalho há riqueza e onde há cooperação há paz.</h1>		
+			<h1>Onde há trabalho há riqueza e onde há cooperação há paz.</h1>	
+			<a href="#" class="btn btn-info" role="button">Junte-se ao combate contra o abuso</a>
         </div>
     </header>
 
@@ -72,7 +73,7 @@
 				  O Problema
 				</h2>
 				<h5>
-				  Abuso sexual infantil
+				  Pesquisas comprovam a importância do combate
 				</h5>
 				<hr class="hr-secondary" />
 			</div>
@@ -82,30 +83,30 @@
 			<div class="col-md-4 col-sm-6 margin30">
 				<div class="colored-boxed green">
 					<i class="fa fa-rss icon-5x"></i>
-					<h3>Denúncias</h3>
+					<h3>Vigilância de Violências e Acidentes</h3>
 					<span class="center-line"></span>
 					<p>
-						Brasil teve mais de 21 mil denúncias de abuso infantil no primeiro trimestre de 2015
+						Abuso sexual é o 2º tipo de violência mais comum contra crianças
 					</p>
 				</div>
 			</div><!--colored boxed col end-->
 			<div class="col-md-4 col-sm-6 margin30">
 				<div class="colored-boxed dark">
 					<i class="fa fa-bar-chart icon-5x"></i>
-					<h3>Números</h3>
+					<h3>Ministério da Saúde</h3>
 					<span class="center-line"></span>
 					<p>
-						Os números representam uma queda de 1,6% em comparação ao mesmo período do 2014
+						Em 2011, foram registrados 14.625 notificações de violência contra menores
 					</p>
 				</div>
 			</div><!--colored boxed col end-->			
 			<div class="col-md-4 col-sm-6 margin30">
 				<div class="colored-boxed red">
 					<i class="fa fa-child icon-5x"></i>
-					<h3>Vítimas</h3>
+					<h3>UNIFESP</h3>
 					<span class="center-line"></span>
 					<p>
-						Em relação ao perfil, 45% das vítimas eram meninas e 20% tinham entre 4 e 7 anos
+						5,4 milhões de brasileiros relatam abuso sexual na infância
 					</p>
 				</div>
 			</div><!--colored boxed col end-->
@@ -125,7 +126,7 @@
 				  Nosso Trabalho
 				</h2>
 				<h5>
-				  Em Desenvolvimento
+				  Confira em detalhes como trabalhamos
 				</h5>
 				<hr class="hr-secondary" />
 			</div>
@@ -135,63 +136,99 @@
 			<div class="col-md-3 col-sm-6 margin30">
 				<div class="colored-boxed green">
 					<i class="fa fa-rss icon-5x"></i>
-					<h3>Passo 1</h3>
+					<h3>Análise</h3>
 					<span class="center-line"></span>
 					<p>
-						Brasil teve mais de 21 mil denúncias de abuso infantil no primeiro trimestre de 2015
+						Estudaremos o projeto em questão e o contexto em que está inserido.
 					</p>
 				</div>
 			</div><!--colored boxed col end-->
 			<div class="col-md-3 col-sm-6 margin30">
 				<div class="colored-boxed dark">
 					<i class="fa fa-rss icon-5x"></i>
-					<h3>Passo 2</h3>
+					<h3>Planejamento</h3>
 					<span class="center-line"></span>
 					<p>
-						Os números representam uma queda de 1,6% em comparação ao mesmo período do 2014
+						Após estudo minucioso, nossa equipe irá discutir sobra a melhor abordagem possível.
 					</p>
 				</div>
 			</div><!--colored boxed col end-->			
 			<div class="col-md-3 col-sm-6 margin30">
 				<div class="colored-boxed red">
 					<i class="fa fa-rss icon-5x"></i>
-					<h3>Passo 3</h3>
+					<h3>Desenvolvimento</h3>
 					<span class="center-line"></span>
 					<p>
-						Em relação ao perfil, 45% das vítimas eram meninas e 20% tinham entre 4 e 7 anos
+						Criaremos a proposta de planejamento comunicacional.
 					</p>
 				</div>
 			</div><!--colored boxed col end-->
 			<div class="col-md-3 col-sm-6 margin30">
 				<div class="colored-boxed red">
 					<i class="fa fa-rss icon-5x"></i>
-					<h3>Passo 4</h3>
+					<h3>Aplicação</h3>
 					<span class="center-line"></span>
 					<p>
-						Em relação ao perfil, 45% das vítimas eram meninas e 20% tinham entre 4 e 7 anos
+						Iremos, efetivamente, aplicar o planejamento.
 					</p>
 				</div>
 			</div><!--colored boxed col end-->
 		</div>		
     </div><!-- /.container -->
+
+	    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+	</script>
 	
-	<div class="container-fluid text-center sobre">		
-		<div class="col-md-6 bkg-sobre">
-		</div>
-		<div class="col-md-6 text-left txt-sobre">
-			<h2>Sobre</h2>
-			<p>Nossa idealização de produto foi surgindo a partir das nossas pesquisas de
-			campanhas de combate a violência infantil já aplicadas e da análise dos modelos de
-			campanha, começamos a nos questionar sobre a real efetividade e o alcance
-			dessas campanhas nos grupos de riscos. Segundo dados do Disque Direitos
-			Humanos1 a maior parte das vítimas de abuso infantil tem entre 8-14, seguida por
-			crianças entre 0-7.
-			</p>
-			<a href="#" class="btn btn-info" role="button">Saiba Mais</a>
-		</div>		
-	</div>
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -1,5 +1,7 @@
 function init() {
   // initialisation stuff here
+
+});
 }
 
 $(document).ready(function() {
